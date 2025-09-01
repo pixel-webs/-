@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نمونه‌کارها - پیکسل وب</title>
+    <meta name="description" content="نمونه‌کارهای تیم پیکسل وب شامل طراحی سایت، UI/UX و پروژه‌های موفق انجام شده">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="نمونه‌کارها - پیکسل وب">
+    <meta property="og:description" content="نمونه‌کارهای تیم پیکسل وب شامل طراحی سایت، UI/UX و پروژه‌های موفق انجام شده">
+    <meta property="og:image" content="images/logo.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-to-content">پرش به محتوا</a>
+    
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="images/logo.jpg" alt="پیکسل وب" width="120" height="40">
+                </div>
+                
+                <!-- Navigation -->
+                <nav>
+                    <ul class="nav" id="nav">
+                        <li><a href="index.html">خانه</a></li>
+                        <li><a href="portfolio.html" class="active">نمونه‌کار</a></li>
+                        <li><a href="services.html">خدمات</a></li>
+                        <li><a href="about.html">درباره ما</a></li>
+                        <li><a href="contact.html">تماس</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="منوی موبایل">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" style="padding: 120px 0 var(--spacing-xl);">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>نمونه‌کارهای ما</h1>
+                    <p>مجموعه‌ای از پروژه‌های موفق ما که با دقت و خلاقیت طراحی و توسعه داده‌ایم</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>پروژه‌های ما</h2>
+                    <p>هر پروژه داستان منحصر به فردی دارد که با نیازهای مشتری و اهداف کسب‌وکار طراحی شده است</p>
+                </div>
+                
+                <div class="grid grid-3">
+                    <!-- پروژه 1: ایران کاکتوس -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio1.jpg" alt="ایران کاکتوس" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>ایران کاکتوس</h3>
+                            <p>طراحی فروشگاهی مینیمال، تمرکز روی تبدیل کاربر</p>
+                            <div class="portfolio-meta">
+                                <span>HTML/CSS</span>
+                                <span>UI/UX & Frontend</span>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <button class="btn btn-outline btn-small" onclick="openPortfolioModal(1)">مشاهده جزئیات</button>
+                                <a href="https://t.me/pixel_webs" class="btn btn-primary btn-small" target="_blank" rel="noopener">
+                                    📱 درخواست مشابه
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- پروژه 2: پلتفرم خدماتی ابزار اتومات -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio2.jpg" alt="پلتفرم خدماتی ابزار اتومات" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>پلتفرم خدماتی ابزار اتومات</h3>
+                            <p>داشبورد خدماتی با UX ساده و کاربرپسند</p>
+                            <div class="portfolio-meta">
+                                <span>HTML/CSS/JS</span>
+                                <span>Full Stack</span>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <button class="btn btn-outline btn-small" onclick="openPortfolioModal(2)">مشاهده جزئیات</button>
+                                <a href="https://t.me/pixel_webs" class="btn btn-primary btn-small" target="_blank" rel="noopener">
+                                    📱 درخواست مشابه
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- پروژه 3: لندینگ برند نِوَ -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio3.jpg" alt="لندینگ برند نِوَ" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>لندینگ برند نِوَ</h3>
+                            <p>لندینگ با انیمیشن‌های میکرو و سرعت بالا</p>
+                            <div class="portfolio-meta">
+                                <span>HTML/CSS</span>
+                                <span>UI/UX</span>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <button class="btn btn-outline btn-small" onclick="openPortfolioModal(3)">مشاهده جزئیات</button>
+                                <a href="https://t.me/pixel_webs" class="btn btn-primary btn-small" target="_blank" rel="noopener">
+                                    📱 درخواست مشابه
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section" style="background-color: var(--gray-100);">
+            <div class="container">
+                <div class="text-center">
+                    <h2>پروژه خود را شروع کنید</h2>
+                    <p style="max-width: 600px; margin: 0 auto var(--spacing-xl);">آیا پروژه مشابهی در ذهن دارید؟ با ما در تماس باشید و پروژه خود را از طریق تلگرام ارسال کنید.</p>
+                    <a href="https://t.me/pixel_webs" class="btn btn-primary" target="_blank" rel="noopener">
+                        📱 ارسال پروژه در تلگرام
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">© 2025 پیکسل وب</div>
+                <div class="footer-info">
+                    <a href="https://t.me/pixel_webs" target="_blank" rel="noopener">
+                        📱 سفارش‌ها از طریق تلگرام دریافت می‌شود
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modal -->
+    <div class="modal" id="portfolio-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title">جزئیات پروژه</h3>
+                <button class="modal-close" onclick="closePortfolioModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- محتوای modal از طریق JavaScript پر می‌شود -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
