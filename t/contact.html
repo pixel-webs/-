@@ -1,209 +1,0 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تماس با ما - پیکسل وب</title>
-    <meta name="description" content="تماس با تیم پیکسل وب - سفارش‌ها و هماهنگی‌ها فقط از طریق تلگرام انجام می‌شود">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="تماس با ما - پیکسل وب">
-    <meta property="og:description" content="تماس با تیم پیکسل وب - سفارش‌ها و هماهنگی‌ها فقط از طریق تلگرام انجام می‌شود">
-    <meta property="og:image" content="images/logo.jpg">
-    <meta property="og:type" content="website">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Skip to Content Link -->
-    <a href="#main-content" class="skip-to-content">پرش به محتوا</a>
-    
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="container">
-            <div class="header-content">
-                <!-- Logo -->
-                <div class="logo">
-                    <img src="images/logo.jpg" alt="پیکسل وب" width="120" height="40">
-                </div>
-                
-                <!-- Navigation -->
-                <nav>
-                    <ul class="nav" id="nav">
-                        <li><a href="index.html">خانه</a></li>
-                        <li><a href="portfolio.html">نمونه‌کار</a></li>
-                        <li><a href="services.html">خدمات</a></li>
-                        <li><a href="about.html">درباره ما</a></li>
-                        <li><a href="contact.html" class="active">تماس</a></li>
-                    </ul>
-                </nav>
-                
-                <!-- Mobile Menu Toggle -->
-                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="منوی موبایل">
-                    ☰
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main id="main-content">
-        <!-- Hero Section -->
-        <section class="hero" style="padding: 120px 0 var(--spacing-xl);">
-            <div class="container">
-                <div class="hero-content">
-                    <h1>تماس با ما</h1>
-                    <p>سفارش‌ها و هماهنگی‌ها فقط از طریق تلگرام انجام می‌شود</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="section">
-            <div class="container">
-                <div class="grid grid-2" style="gap: var(--spacing-3xl); align-items: start;">
-                    <!-- Contact Form -->
-                    <div class="card">
-                        <h2 style="margin-bottom: var(--spacing-lg);">ارسال پیام</h2>
-                        <form id="contact-form" novalidate>
-                            <div class="form-group">
-                                <label for="name" class="form-label">نام *</label>
-                                <input type="text" id="name" name="name" class="form-input" required>
-                                <div class="form-error" id="name-error">لطفاً نام خود را وارد کنید</div>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="email" class="form-label">ایمیل *</label>
-                                <input type="email" id="email" name="email" class="form-input" required>
-                                <div class="form-error" id="email-error">لطفاً ایمیل معتبر وارد کنید</div>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="message" class="form-label">پیام *</label>
-                                <textarea id="message" name="message" class="form-textarea" required placeholder="لطفاً پروژه خود را شرح دهید..."></textarea>
-                                <div class="form-error" id="message-error">لطفاً پیام خود را وارد کنید</div>
-                            </div>
-                            
-                            <button type="submit" class="btn btn-primary" style="width: 100%;">
-                                📱 ارسال و ارسال به تلگرام
-                            </button>
-                        </form>
-                        
-                        <!-- Success Message -->
-                        <div id="success-message" style="display: none; margin-top: var(--spacing-lg); padding: var(--spacing-lg); background: #d4edda; border: 1px solid #c3e6cb; border-radius: 8px; color: #155724;">
-                            <h3 style="color: #155724; margin-bottom: var(--spacing-sm);">✅ پیام شما ارسال شد!</h3>
-                            <p style="margin-bottom: var(--spacing-md);">پیام شما با موفقیت ارسال شد. برای ادامه کار، لطفاً از طریق تلگرام با ما در تماس باشید:</p>
-                            <a href="https://t.me/pixel_webs" class="btn btn-primary" target="_blank" rel="noopener">
-                                📱 شروع گفتگو در تلگرام
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <!-- Contact Info -->
-                    <div>
-                        <div class="card" style="margin-bottom: var(--spacing-xl);">
-                            <h2 style="margin-bottom: var(--spacing-lg);">اطلاعات تماس</h2>
-                            <div style="display: flex; align-items: center; gap: var(--spacing-md); margin-bottom: var(--spacing-lg);">
-                                <div style="width: 60px; height: 60px; background: var(--primary-color); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); color: var(--white);">
-                                    📱
-                                </div>
-                                <div>
-                                    <h3 style="margin-bottom: var(--spacing-sm);">تلگرام</h3>
-                                    <p style="margin-bottom: var(--spacing-md);">@your_channel</p>
-                                    <a href="https://t.me/pixel_webs" class="btn btn-primary" target="_blank" rel="noopener">
-                                        شروع گفتگو در تلگرام
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <h3 style="margin-bottom: var(--spacing-lg);">چرا تلگرام؟</h3>
-                            <ul style="list-style: none; padding: 0;">
-                                <li style="padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--gray-200); display: flex; align-items: center; gap: var(--spacing-sm);">
-                                    <span style="color: var(--primary-color);">✓</span>
-                                    پاسخگویی سریع و 24/7
-                                </li>
-                                <li style="padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--gray-200); display: flex; align-items: center; gap: var(--spacing-sm);">
-                                    <span style="color: var(--primary-color);">✓</span>
-                                    امکان ارسال فایل و تصویر
-                                </li>
-                                <li style="padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--gray-200); display: flex; align-items: center; gap: var(--spacing-sm);">
-                                    <span style="color: var(--primary-color);">✓</span>
-                                    مشاوره رایگان و تخصصی
-                                </li>
-                                <li style="padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--gray-200); display: flex; align-items: center; gap: var(--spacing-sm);">
-                                    <span style="color: var(--primary-color);">✓</span>
-                                    امکان پیگیری پروژه
-                                </li>
-                                <li style="padding: var(--spacing-sm) 0; display: flex; align-items: center; gap: var(--spacing-sm);">
-                                    <span style="color: var(--primary-color);">✓</span>
-                                    امنیت و حریم خصوصی
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="section" style="background-color: var(--gray-100);">
-            <div class="container">
-                <div class="section-title">
-                    <h2>سوالات متداول</h2>
-                    <p>پاسخ سوالات رایج شما درباره نحوه همکاری با ما</p>
-                </div>
-                
-                <div class="grid grid-2">
-                    <div class="card">
-                        <h3>چرا فقط از طریق تلگرام؟</h3>
-                        <p>تلگرام امکان ارتباط سریع، امن و راحت را فراهم می‌کند. همچنین امکان ارسال فایل، تصویر و پیگیری بهتر پروژه را داریم.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h3>مدت زمان پاسخگویی چقدر است؟</h3>
-                        <p>معمولاً در کمتر از 2 ساعت پاسخ شما را می‌دهیم. در ساعات کاری (9 صبح تا 9 شب) پاسخگویی سریع‌تر است.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h3>آیا مشاوره رایگان است؟</h3>
-                        <p>بله، مشاوره اولیه و بررسی پروژه شما کاملاً رایگان است. ما بدون هیچ هزینه‌ای راهنمایی‌های تخصصی ارائه می‌دهیم.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h3>چگونه پروژه را شروع کنیم؟</h3>
-                        <p>کافی است از طریق تلگرام با ما در تماس باشید، پروژه خود را شرح دهید و ما در کمترین زمان پیش‌فاکتور و زمان‌بندی ارائه می‌دهیم.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">© 2025 پیکسل وب</div>
-                <div class="footer-info">
-                    <a href="https://t.me/pixel_webs" target="_blank" rel="noopener">
-                        📱 سفارش‌ها از طریق تلگرام دریافت می‌شود
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="js/script.js"></script>
-</body>
-</html>
